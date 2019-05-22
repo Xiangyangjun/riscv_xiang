@@ -5,15 +5,15 @@ RISC-V is a free and open ISA enabling a new era of processor innovation through
 xiang is a very easy cpu with RISC-V ISA.
 ## Implemented instructions
 RType:   
-Type of R-Type Instruction （10） add/sub sll slt sltu xor srl sra or and 
+Type of R-Type Instruction （10） add/sub sll slt sltu xor srl sra or and   
 IType:   
-Tyoe of Imm Instruction （11 addi slti sltiu xori ori andi slli srli/srai
+Tyoe of Imm Instruction （11) addi slti sltiu xori ori andi slli srli/srai  
 BrType:  
-Type of Branch Instruction （6） BEQ/BNE/BLT/BLTU/BGE/BGEU
+Type of Branch Instruction （6） BEQ/BNE/BLT/BLTU/BGE/BGEU  
 JType:   
-Type of Jump Instruction （2）
+Type of Jump Instruction （2）  
 LdType:  
-Type of Load Instruction (5) lb lh lw lbu lhu
+Type of Load Instruction (5) lb lh lw lbu lhu  
 StType:   
-Type of Store Instruction store 3) sb sh sw
+Type of Store Instruction store 3) sb sh sw  
 LUI/AUIPC
